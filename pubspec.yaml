@@ -1,0 +1,50 @@
+name: newsapi_app
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.5 <3.0.0"
+
+dependencies:
+  #Icons
+  cupertino_icons: ^1.0.2
+  ionicons: ^0.2.2
+
+  #Network
+  dio: ^5.1.1
+  awesome_dio_interceptor: ^1.0.0
+  retrofit: ^4.0.1
+
+  #Local database
+  floor: ^1.4.1
+
+  # State management
+  flutter_bloc: ^8.1.2
+
+  # Others
+  flutter_hooks: ^0.18.6
+  get_it: ^7.2.0
+  oktoast: ^3.3.1
+  equatable: ^2.0.5
+  auto_route: ^6.3.0
+
+  flutter:
+    sdk: flutter
+  
+  
+  
+
+dev_dependencies:
+  auto_route_generator: ^6.2.0
+  build_runner: ^2.3.3
+  floor_generator: ^1.4.1
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  lint: ^2.0.1
+  retrofit_generator: ^6.0.0+2
+
+flutter:
+  uses-material-design: true
